@@ -54,7 +54,7 @@ function App() {
     {/* <Refs/> */}
     {/* <CicloVidaComponentes/> */}
     {/* <Hooks/> */}
-    {/* <Formularios/> */}
+    <Formularios/>
     {/* <Eventos/> */}
     {/* <RenderizadoCondicional/> */}
     {/* <SpreadOperator/> */}
