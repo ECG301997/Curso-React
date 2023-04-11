@@ -13,7 +13,10 @@ import './App.css';
 // import Formularios from './components/Formularios';
 // import Eventos from './components/Eventos';
 // import RenderizadoCondicional from './components/RenderizadoCondicional';
-import SpreadOperator from './components/SpreadOperator';
+// import SpreadOperator from './components/SpreadOperator';
+// import IterandoArraysObjetos from './components/IterandoArraysObjetos';
+// import IterarKeys from './components/IterarKeys';
+// import Padre from './components/IterandoComponentes/Padre';
 
 
 
@@ -35,8 +38,10 @@ function App() {
     {/* <Formularios/> */}
     {/* <Eventos/> */}
     {/* <RenderizadoCondicional/> */}
-    <SpreadOperator/>
-
+    {/* <SpreadOperator/> */}
+    {/* <IterandoArraysObjetos/> */}
+    {/* <IterarKeys/> */}
+    {/* <Padre/> */}
     </>
   );
 }
