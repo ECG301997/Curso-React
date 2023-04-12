@@ -24,6 +24,7 @@ import './App.css';
 // import ComunicacionComponente2 from './components/ComunicacionComponentes/ComunicacionComponente2';
 // import Fetch from './components/Fetch';
 // import Axios from './components/Axios';
+import RutaPadre from './components/Routes/RutaPadre';
 
 
 
@@ -70,6 +71,7 @@ function App() {
     <button onClick={estadoComponente}>Pulsa</button> */}
     {/* <Fetch/> */}
     {/* <Axios/> */}
+    <RutaPadre/>
     </>
   );
 }
