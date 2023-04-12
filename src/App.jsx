@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import React from 'react';
 import './App.css';
+import Fetch from './components/Fetch';
 // import PrimerComponente from './components/PrimerComponente';
 // import Props from './components/Props';
 // import State from './components/State';
@@ -54,7 +55,7 @@ function App() {
     {/* <Refs/> */}
     {/* <CicloVidaComponentes/> */}
     {/* <Hooks/> */}
-    <Formularios/>
+    {/* <Formularios/> */}
     {/* <Eventos/> */}
     {/* <RenderizadoCondicional/> */}
     {/* <SpreadOperator/> */}
@@ -64,6 +65,8 @@ function App() {
     {/* <ComunicacionComponente1 llamaHermano2={llamandoAHermano} llamaPadre={hijoLlamaPadre} cambioEstado={estado}/>
     <ComunicacionComponente2 nuevoEstado={estado}/>
     <button onClick={estadoComponente}>Pulsa</button> */}
+
+    <Fetch/>
     </>
   );
 }
