@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import React from 'react';
 import './App.css';
-import Fetch from './components/Fetch';
+
+
 // import PrimerComponente from './components/PrimerComponente';
 // import Props from './components/Props';
 // import State from './components/State';
@@ -21,6 +22,8 @@ import Fetch from './components/Fetch';
 // import Padre from './components/IterandoComponentes/Padre';
 // import ComunicacionComponente1 from './components/ComunicacionComponentes/ComunicacionComponente1';
 // import ComunicacionComponente2 from './components/ComunicacionComponentes/ComunicacionComponente2';
+// import Fetch from './components/Fetch';
+// import Axios from './components/Axios';
 
 
 
@@ -65,8 +68,8 @@ function App() {
     {/* <ComunicacionComponente1 llamaHermano2={llamandoAHermano} llamaPadre={hijoLlamaPadre} cambioEstado={estado}/>
     <ComunicacionComponente2 nuevoEstado={estado}/>
     <button onClick={estadoComponente}>Pulsa</button> */}
-
-    <Fetch/>
+    {/* <Fetch/> */}
+    {/* <Axios/> */}
     </>
   );
 }
