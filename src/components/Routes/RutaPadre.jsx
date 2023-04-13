@@ -2,7 +2,8 @@ import React from 'react'
 import Componente1 from './Componente1'
 import Componente2 from './Componente2'
 import Componente3 from './Componente3'
-import { BrowserRouter, Route, Link  } from 'react-router-dom'
+import './Padre.css'
+import { BrowserRouter, Route, NavLink  } from 'react-router-dom'
 
 
 const RutaPadre = () => {
@@ -26,8 +27,8 @@ const RutaPadre = () => {
         <Componente3 />
       </Route>
 
-      <Link to='/pagina2'>A componente 2</Link> <br/>
-      <Link to='/pagina3'>A componente 3</Link>
+      <NavLink activeStyle={{color:'red'}} to='/pagina2'>A componente 2</NavLink><br />
+      <NavLink activeClassName="estiloLink" to='/pagina3'>A componente 3</NavLink>
       
 
     </BrowserRouter>
