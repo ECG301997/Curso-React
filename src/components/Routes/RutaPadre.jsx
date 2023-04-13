@@ -4,6 +4,7 @@ import Componente2 from './Componente2'
 import Componente3 from './Componente3'
 import './Padre.css'
 import { BrowserRouter, Route, NavLink  } from 'react-router-dom'
+import RutasDinamicas from './RutasDinamicas'
 
 
 const RutaPadre = () => {
@@ -29,6 +30,9 @@ const RutaPadre = () => {
 
       <NavLink activeStyle={{color:'red'}} to='/pagina2'>A componente 2</NavLink><br />
       <NavLink activeClassName="estiloLink" to='/pagina3'>A componente 3</NavLink>
+
+
+      <Route path='/users/:id' component={RutasDinamicas}/>
       
 
     </BrowserRouter>
